@@ -8,3 +8,11 @@ Notes
 =====
 
 This project is use GBK coding.
+
+
+Usage
+=====
+
+About the usage, you can see LxxLibrarySample.
+
+
