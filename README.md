@@ -2,14 +2,14 @@ LxxLibrary
 ==========
 
 This is a my custom library for android, There is not depend on Third-party libraries.
-
+(这是一个用于安卓的自定义库，没有依赖第三方库)
 
 Notes
 =====
 
- * @author 李祥鑫  以后简称 lxx或者mlick
- * @time 创建时间： 2014年9月4日
- * @category 本库的使用所有权归本人所有，其中所用的技术均属开源技术
+ *     作者：李祥鑫 以后简称 lxx或者mlick
+ * 创建时间：2014年9月4日
+ * 特别说明：本库所用的技术均属开源技术。
 
 
 Notice
@@ -22,5 +22,5 @@ Usage
 =====
 
 About the usage, you can see LxxLibrarySample.
-
+(关于这个用法，可以参考的两个一个开源项目LxxLibrarySample)
 
