@@ -22,5 +22,5 @@ Usage
 =====
 
 About the usage, you can see LxxLibrarySample.
-(关于这个用法，可以参考的两个一个开源项目LxxLibrarySample)
+(关于这个用法，可以参考的我的另外一个开源项目LxxLibrarySample)
 
