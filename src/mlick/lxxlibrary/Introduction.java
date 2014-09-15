@@ -16,4 +16,9 @@ package mlick.lxxlibrary;
  * 2 对activity的封装
  * 3 对Fragment的封装
  * 4 对FragmentActivity的封装
+ * 5 对自定义Dialog的封装
+   6 对自定义试图的封装
+   7 对常用图片处理的一些方法进行的封装
+   8 对系统的常用方法进行的封装
+   9 对toast方法的封装
  */

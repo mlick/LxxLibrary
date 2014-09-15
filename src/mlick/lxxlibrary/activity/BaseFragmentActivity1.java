@@ -4,6 +4,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 
+/**
+ * 增加点击事件
+ * 
+ * @author lxx
+ * @date 2014-9-15
+ * @time 下午1:47:25
+ */
 public abstract class BaseFragmentActivity1 extends BaseFragmentActivity {
 
 	// 放置布局文件的监听
@@ -27,5 +34,5 @@ public abstract class BaseFragmentActivity1 extends BaseFragmentActivity {
 
 	// 设置布局文件的监听
 	public abstract void setMyOnClickListen(View v);
-	
+
 }

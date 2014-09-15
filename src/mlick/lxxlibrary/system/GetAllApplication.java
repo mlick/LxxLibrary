@@ -30,4 +30,6 @@ public class GetAllApplication {
 		return pName.contains(packageName);// 判断pName中是否有目标程序的包名，有TRUE，没有FALSE
 	}
 
+	
+	
 }

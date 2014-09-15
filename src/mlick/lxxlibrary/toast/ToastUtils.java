@@ -4,7 +4,7 @@ import android.content.Context;
 import android.widget.Toast;
 
 /**
- * 显示toast的内容
+ * 显示系统自带的toast工具类
  * 
  * @author lxx
  * @date 2014-9-4
