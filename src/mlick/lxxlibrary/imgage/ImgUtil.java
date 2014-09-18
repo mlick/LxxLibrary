@@ -25,6 +25,12 @@ public class ImgUtil {
 		this.context = context;
 	}
 
+
+public static int getMyDrawableId2(Context context, String name) {
+		// System.out.println(" packageName is " + context.getPackageName());
+		return context.getResources().getIdentifier(name, "drawable",
+				context.getPackageName());
+	}
 	/**
 	 * 获取手机内全部图片地址
 	 * 
