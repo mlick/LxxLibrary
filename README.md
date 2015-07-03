@@ -17,8 +17,8 @@ Notice
  * 1 本库所使用的是编码是gbk
  * 2 本库引用的类库有V4包 ，如果产生冲突，请替换 
 
- function 
- =====
+Function 
+=====
 * 1 对adapter的封装 
 * 2 对activity的封装
 * 3 对Fragment的封装
