@@ -23,9 +23,9 @@ public class SPhelper {
 //	}
 
 	private static SharedPreferences sp;
-	private static String NAME = "lxxsp"; // ȱʡֵ
+	private static String SPNAME = "lxxsp"; // ȱʡֵ
 
-	private static void initial(Context mContext, String fileName) {
+    private static void initial(Context mContext, String fileName) {
 		sp = mContext.getSharedPreferences(fileName, 0);
 	}
 
@@ -37,7 +37,7 @@ public class SPhelper {
 	 * @param value
 	 */
 	public static void save(Context mContext, String key, Object value) {
-		initial(mContext, NAME);
+		initial(mContext, SPNAME);
 		if (value instanceof String) {
 			sp.edit().putString(key, (String) value).commit();
 		} else if (value instanceof Boolean) {
@@ -83,7 +83,7 @@ public class SPhelper {
 	 * @return
 	 */
 	public static Boolean getBoolean(Context mContext, String key) {
-		initial(mContext, NAME);
+		initial(mContext, SPNAME);
 		try {
 			return sp.getBoolean(key, false);
 		} catch (Exception e) {
@@ -109,7 +109,7 @@ public class SPhelper {
 	 * @return
 	 */
 	public static String getString(Context mContext, String key) {
-		initial(mContext, NAME);
+		initial(mContext, SPNAME);
 		return sp.getString(key, "");
 	}
 
@@ -126,12 +126,12 @@ public class SPhelper {
 	 * @return
 	 */
 	public static int getInteger(Context mContext, String key) {
-		initial(mContext, NAME);
+		initial(mContext, SPNAME);
 		return sp.getInt(key, 0);
 	}
 
 	public static int getInteger(Context mContext, String fileName, String key) {
-		initial(mContext, NAME);
+		initial(mContext, SPNAME);
 		return sp.getInt(key, 0);
 	}
 
@@ -143,12 +143,12 @@ public class SPhelper {
 	 * @return
 	 */
 	public static Float getFloat(Context mContext, String key) {
-		initial(mContext, NAME);
+		initial(mContext, SPNAME);
 		return sp.getFloat(key, 0);
 	}
 
 	public static Float getFloat(Context mContext, String fileName, String key) {
-		initial(mContext, NAME);
+		initial(mContext, SPNAME);
 		return sp.getFloat(key, 0);
 	}
 
@@ -160,12 +160,12 @@ public class SPhelper {
 	 * @return
 	 */
 	public static Long getLong(Context mContext, String key) {
-		initial(mContext, NAME);
+		initial(mContext, SPNAME);
 		return sp.getLong(key, 0);
 	}
 
 	public static Long getLong(Context mContext, String fileName, String key) {
-		initial(mContext, NAME);
+		initial(mContext, SPNAME);
 		return sp.getLong(key, 0);
 	}
 
@@ -175,7 +175,7 @@ public class SPhelper {
 	 * @param mContext
 	 */
 	public static void removeFile(Context mContext) {
-		initial(mContext, NAME);
+		initial(mContext, SPNAME);
 		Editor editor = sp.edit();
 		editor.clear();
 		editor.commit();
