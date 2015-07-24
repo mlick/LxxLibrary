@@ -71,6 +71,11 @@ public class NetworkUtils {
 		return STATE.CONNECT_NONE;
 	}
 
+	/**
+	 * 判断是否有网络可用
+	 * @param context
+	 * @return
+	 */
 	public static boolean isNetworkAvailable(Context context) {
 		boolean bConnected = false;
 		ConnectivityManager connManager = (ConnectivityManager) context
