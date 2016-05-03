@@ -7,7 +7,7 @@ This is a my custom library for android, There is not depend on Third-party libr
 Notes
 =====
 
- *     作者：李祥鑫 以后简称 lxx 英文名: mlick
+ *     作者：Mlick 以后简称 lxx 英文名: mlick
  * 创建时间：2014年9月4日
  * 特别说明：本库所用的技术均属开源技术。
 
