@@ -37,3 +37,8 @@ Usage
 About the usage, you can see LxxLibrarySample.
 (关于这个用法，可以参考的我的另外一个开源项目LxxLibrarySample)
 
+说明
+======
+
+改库因太过老旧已停止更新于 2016年5月13日10:46:04 
+[最新库地址](https://github.com/mlick/LiteLibrary)  
